@@ -159,6 +159,7 @@ button {
     background: #007BFF;
     border: 1px solid #E4E4E4;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .text-color {
