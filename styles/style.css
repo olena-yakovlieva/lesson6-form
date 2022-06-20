@@ -18,6 +18,12 @@ h1, p, span, hr, button {
     padding: 0;
 }
 
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 main {
     margin: 40px auto;
     background-color: #fff;
@@ -47,7 +53,7 @@ div.name, div.country-city {
     justify-content: space-between;
 }
 
-input[type="text"] {
+[type="text"] {
     width: 245px;
     height: 38px;
     margin-top: 7px;
@@ -58,7 +64,7 @@ input[type="text"] {
     color: #545454;
 }
 
-input[type="email"] {
+[type="email"] {
     width: 100%;
     height: 38px;
     margin-top: 7px;
@@ -69,17 +75,17 @@ input[type="email"] {
     color: #545454;
 }
 
+/* CUSTOM RADIO STYLE */
+
 .radio {
     margin: 20px auto;
 }
 
-input[type="radio"] {
+[type="radio"] {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
-
-/* CUSTOM RADIO STYLE */
 
 .gender-type {
     display: inline-block;
@@ -137,9 +143,6 @@ input[type="radio"] {
     margin-top: 7px;
     border: 1px solid #E4E4E4;
     border-radius: 6px;
-}
-
-#country {
     font-size: 15px;
     font-family: Inter, Arial, sans-serif;
     letter-spacing: -0.2px;
